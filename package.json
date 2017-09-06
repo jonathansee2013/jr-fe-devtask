@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": "http://gitlab.yorkstreet.local/wn-custom-apps/group-website",
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.yorkstreet.local/wn-custom-apps/group-website"
+  },
   "author": "World Nomads Group",
   "license": "ISC",
   "devDependencies": {
@@ -17,6 +20,9 @@
     "gulp-uglify": "^3.0.0",
     "pump": "^1.0.2"
   },
-  "dependencies": {
-  }
+  "dependencies": {},
+  "main": "gulpfile.js",
+  "keywords": [
+    "gulp"
+  ]
 }
